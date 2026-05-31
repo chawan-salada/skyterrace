@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .calendar-grid {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 0.25rem;
+    }
+
+    .time-slot-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0.5rem;
+    }
+
+    .calendar-tel-cell {
+        display: flex;
+    }
+
+    @media (min-width: 640px) {
+        .time-slot-grid {
+            grid-template-columns: repeat(6, minmax(0, 1fr));
+        }
+    }
+}
