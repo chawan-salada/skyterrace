@@ -5,7 +5,7 @@
 ## 技術スタック（開発）
 
 - 実行: Docker Desktop + Laravel Sail
-- アプリ: Laravel 12 + PHP 8.5
+- アプリ: Laravel 12 + PHP 8.4
 - DB: MySQL（Sail）
 - エディタ: Cursor（`cursor .`）
 
